@@ -30,7 +30,9 @@ const IndexPage = () => (
       development and completely changed my life.
     </p>
 
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    {/* <Link to="/about-me/">More about me</Link> */}
+    {/* <Link to="/projects/">See what I've made</Link> */}
+    {/* <Link to="/contact-me/">Get in touch!</Link> */}
   </Layout>
 )
 
