@@ -4,9 +4,13 @@
 }
 
 #mainHeader {
+  padding-top: 1.45rem;
 }
 
 .subHead {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 1.45rem;
 }
 
 #mainImage {
@@ -15,4 +19,22 @@
 }
 
 .contentP {
+  font-family: "Roboto";
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialsIcon {
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+  margin-bottom: 1.45rem;
+}
+
+.socialsIcon:hover {
+  cursor: pointer;
 }
