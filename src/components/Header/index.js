@@ -29,8 +29,8 @@ function Header({ siteTitle }) {
             isOpen={open}
             menuClicked={handleClick}
             width={50}
-            height={28}
-            strokeWidth={5}
+            height={25}
+            strokeWidth={6}
             rotate={0}
             color="#3a3b3c"
             borderRadius={50}
