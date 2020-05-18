@@ -75,7 +75,7 @@ const HomePageContent = () => {
 
       {/* TODO: uncomment links below when pages are made! */}
       {/* <Link to="/about-me/">More about me</Link> */}
-      {/* <Link to="/projects/">See what I've made</Link> */}
+      {/* <Link to="/portfolio/">See what I've made</Link> */}
       {/* <Link to="/contact-me/">Get in touch!</Link> */}
     </div>
   )

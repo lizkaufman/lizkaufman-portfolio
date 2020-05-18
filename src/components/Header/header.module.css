@@ -1,0 +1,44 @@
+#header {
+  background: #eccf59;
+  margin-bottom: 1.45rem;
+}
+
+#headerContent {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#siteTitle {
+  color: #3a3b3c;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 90%;
+}
+
+#hamburgerIcon {
+  margin: auto 0;
+  cursor: pointer;
+}
+
+#headerMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headerLink {
+  color: #3a3b3c;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.headerLink:hover {
+  background-color: #eccf59;
+  color: #3a3b3c;
+  border-radius: 10px;
+}

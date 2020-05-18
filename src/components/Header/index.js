@@ -2,50 +2,34 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import HamburgerMenu from "react-hamburger-menu"
+import { Drawer } from "antd"
+import css from "./header.module.css"
 
 function Header({ siteTitle }) {
+  //state that controls burger menu icon:
   const [open, setOpen] = useState(false)
+  //state that controls the actual menu the burger icon is linked to:
+  const [menuShow, setMenuShow] = useState(false)
 
   function handleClick() {
     setOpen(!open)
+    setMenuShow(!menuShow)
   }
 
   return (
-    <header
-      style={{
-        background: `#eccf59`,
-        marginBottom: `1.45rem`,
-      }}
-    >
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.45rem 1.0875rem`,
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-        }}
-      >
+    <header id={css.header}>
+      <div id={css.headerContent}>
         <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `#3a3b3c`,
-              textDecoration: `none`,
-              fontFamily: "Roboto",
-              fontSize: "100%",
-            }}
-          >
+          <Link id={css.siteTitle} to="/">
             {siteTitle}
           </Link>
         </h1>
-        <div style={{ margin: "auto 0" }}>
+        <div id={css.hamburgerIcon}>
           <HamburgerMenu
             isOpen={open}
             menuClicked={handleClick}
             width={50}
-            height={30}
+            height={28}
             strokeWidth={5}
             rotate={0}
             color="#3a3b3c"
@@ -54,6 +38,40 @@ function Header({ siteTitle }) {
           />
         </div>
       </div>
+      <Drawer
+        title="Menu"
+        placement="right"
+        closable={true}
+        onClose={handleClick}
+        visible={menuShow}
+        mask={true}
+        drawerStyle={{
+          fontFamily: "Roboto",
+        }}
+        headerStyle={{
+          fontFamily: "Roboto",
+          fontSize: "20px",
+          color: "#3a3b3c",
+          fontWeight: "bolder",
+          paddingTop: "20px",
+          background: `#eccf59`,
+        }}
+      >
+        <div id={css.headerMenu}>
+          <a href="/" className={css.headerLink}>
+            Home
+          </a>
+          <a href="/about-me" className={css.headerLink}>
+            More About Me
+          </a>
+          <a href="/portfolio" className={css.headerLink}>
+            My Portfolio
+          </a>
+          <a href="/contact-me" className={css.headerLink}>
+            Get In Touch
+          </a>
+        </div>
+      </Drawer>
     </header>
   )
 }
