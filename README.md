@@ -9,7 +9,8 @@
 ## Dependencies:
 
 - [Gatsby](https://www.gatsbyjs.org/)
-- [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu) 
+- [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu) - burger menu icon
+- [Ant Design](https://ant.design/) - menu drawer
 
 ## To run in dev environment:
 
