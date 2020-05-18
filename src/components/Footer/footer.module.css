@@ -1,0 +1,20 @@
+#footer {
+  background: #eccf59;
+  font-family: "Roboto";
+  padding: 1rem 1.0875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+#copyright {
+  margin: auto 0;
+  padding-right: 10px;
+}
+
+.footerSocialIcon {
+  width: 25px;
+  height: 25px;
+  margin: auto 5px;
+}
