@@ -1,16 +1,19 @@
 #homePageContent {
   margin: 0 auto;
   text-align: center;
+  font-family: "Roboto";
 }
 
 #mainHeader {
   padding-top: 1.45rem;
+  font-family: "Roboto";
 }
 
 .subHead {
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 1.45rem;
+  font-family: "Roboto";
 }
 
 #mainImage {

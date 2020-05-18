@@ -77,8 +77,6 @@ const HomePageContent = () => {
       {/* <Link to="/about-me/">More about me</Link> */}
       {/* <Link to="/projects/">See what I've made</Link> */}
       {/* <Link to="/contact-me/">Get in touch!</Link> */}
-
-      {/* TODO: need to incorporate social logos/links on the landing page (somewhere fairly prominent) */}
     </div>
   )
 }
