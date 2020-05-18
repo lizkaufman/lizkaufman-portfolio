@@ -35,7 +35,7 @@ const HomePageContent = () => {
           <img
             className={css.socialsIcon}
             alt="link to my twitter"
-            src="https://i.ibb.co/105SgWs/Twitter-2.png"
+            src="https://i.ibb.co/cJw1VZt/transp-twitter.png"
           />
         </a>
         <a
@@ -46,7 +46,7 @@ const HomePageContent = () => {
           <img
             className={css.socialsIcon}
             alt="link to my github"
-            src="https://i.ibb.co/ynTDDFQ/Github-2.png"
+            src="https://i.ibb.co/hgW1VBh/transp-github-better.png"
           />
         </a>
         <a
@@ -57,7 +57,7 @@ const HomePageContent = () => {
           <img
             className={css.socialsIcon}
             alt="link to my linkedin"
-            src="https://i.ibb.co/dMzdXXR/Linkedin-2.png"
+            src="https://i.ibb.co/MMxKZ0T/transp-linked-in.png"
           />
         </a>
         <a
@@ -75,10 +75,8 @@ const HomePageContent = () => {
 
       {/* TODO: uncomment links below when pages are made! */}
       {/* <Link to="/about-me/">More about me</Link> */}
-      {/* <Link to="/projects/">See what I've made</Link> */}
+      {/* <Link to="/portfolio/">See what I've made</Link> */}
       {/* <Link to="/contact-me/">Get in touch!</Link> */}
-
-      {/* TODO: need to incorporate social logos/links on the landing page (somewhere fairly prominent) */}
     </div>
   )
 }

@@ -1,25 +1,31 @@
 #homePageContent {
   margin: 0 auto;
   text-align: center;
+  font-family: "Roboto";
+  width: 80vw;
 }
 
 #mainHeader {
   padding-top: 1.45rem;
+  font-family: "Roboto";
 }
 
 .subHead {
   width: 60vw;
   margin: 0 auto;
   padding-bottom: 1.45rem;
+  font-family: "Roboto";
 }
 
 #mainImage {
-  max-width: 300px;
-  margin: 1.45rem auto;
+  max-width: 290px;
+  margin: 1.1rem auto;
 }
 
 .contentP {
   font-family: "Roboto";
+  font-weight: bold;
+  font-size: 110%;
 }
 
 #socials {
@@ -37,4 +43,6 @@
 
 .socialsIcon:hover {
   cursor: pointer;
+  background-color: #eccf59;
+  border-radius: 50%;
 }
