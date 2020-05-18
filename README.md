@@ -8,7 +8,8 @@
 
 ## Dependencies:
 
-- Gatsby
+- [Gatsby](https://www.gatsbyjs.org/)
+- [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu) 
 
 ## To run in dev environment:
 
