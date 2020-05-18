@@ -2,11 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PortfolioPageContent from "../components/PortfolioPageContent"
 
 const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <h1>Portfolio Page</h1>
+    <PortfolioPageContent />
   </Layout>
 )
 
