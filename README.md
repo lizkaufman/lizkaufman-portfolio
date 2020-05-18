@@ -10,7 +10,7 @@
 
 - [Gatsby](https://www.gatsbyjs.org/)
 - [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu) - burger menu icon
-- [Ant Design](https://ant.design/) - menu drawer
+- [Ant Design](https://ant.design/) - drawer, carousel
 
 ## To run in dev environment:
 
