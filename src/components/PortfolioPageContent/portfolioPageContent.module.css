@@ -1,11 +1,53 @@
 .portfolioPageContent {
+  padding-top: 1.45rem;
   font-family: "Roboto";
+  width: 80vw;
+  margin: 0 auto;
 }
 
 #portfolioIntro {
   text-align: center;
   font-family: "Roboto";
 }
+
+#portfolioIntro h1 {
+  padding-bottom: 0.45rem;
+}
+
+#midtermPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.45rem;
+}
+
+.midtermPic {
+  width: 25vw;
+  height: auto;
+  padding: 0 20px;
+  border-radius: 10%;
+}
+
+#finalProjPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#githubBlurb {
+  text-align: center;
+  font-weight: bold;
+}
+
+#githubLink {
+  color: black;
+}
+
+#githubLink:hover {
+  text-decoration: underline;
+}
+
+/* -----Collapse/panel (project list) styling below:----- */
 
 .panelContents {
   display: grid;
