@@ -1,0 +1,136 @@
+.aboutPageContent {
+  padding-top: 1.45rem;
+  font-family: "Roboto";
+  margin: 0 auto;
+  text-align: center;
+}
+
+.link {
+  color: black;
+  font-weight: bold;
+}
+.link:hover {
+  color: black;
+  background-color: #61856e65;
+  border-radius: 20px;
+}
+
+.aboutPageContent h1 {
+  padding-bottom: 0.45rem;
+}
+
+#myBackground {
+  margin: 1.45rem auto;
+  padding-top: 1rem;
+}
+
+#socExperience {
+  margin: 1.45rem auto;
+  /* padding-top: 1.5rem; */
+  display: flex;
+  flex-direction: row;
+}
+
+#socNarrative {
+  width: 60vw;
+  padding-right: 30px;
+}
+
+#skillsList {
+  background-color: #61856e65;
+  border-radius: 20px;
+  padding: 20px;
+  width: 40vw;
+  height: auto;
+  margin-left: 30px;
+}
+
+#skillsList ul,
+h4 {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+#skillsList li {
+  margin: 0;
+  text-align: left;
+}
+
+#hobbiesInterests {
+  margin: 1.45rem auto;
+  /* padding-top: 1.5rem; */
+}
+
+/* -----Pictures:----- */
+
+#mainPic {
+  height: 20vh;
+  width: auto;
+  border-radius: 20px;
+  margin: 0;
+}
+
+#socPics {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.socPic {
+  height: auto;
+  width: 45%;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+#hobbiesInterestsPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.45rem auto;
+}
+
+.hobbiesInterestsPic {
+  border-radius: 20px;
+  width: auto;
+  height: 25vh;
+}
+
+.divider {
+  margin: 0;
+}
+
+/* -----Mobile version:----- */
+
+@media only screen and (max-width: 530px) {
+  .aboutPageContent h1 {
+    font-size: 25px;
+  }
+
+  #socGroupPic,
+  #myBackground,
+  #hobbiesInterests {
+    width: 90%;
+  }
+
+  #socNarrative {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #skillsList {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #socRemote,
+  #hobbiesInterestsPics {
+    display: none;
+  }
+
+  #socExperience,
+  #hobbiesInterestsPics {
+    flex-direction: column;
+  }
+}

@@ -62,7 +62,7 @@ function Header({ siteTitle }) {
             Home
           </a>
           <a href="/about-me" className={css.headerLink}>
-            More About Me
+            My Journey
           </a>
           <a href="/portfolio" className={css.headerLink}>
             My Portfolio
