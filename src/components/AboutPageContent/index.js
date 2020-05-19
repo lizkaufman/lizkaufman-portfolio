@@ -48,6 +48,7 @@ function AboutPageContent() {
         <div id={css.socPics}>
           <img
             className={css.socPic}
+            id={css.socGroupPic}
             alt="School of Code groupshot"
             src="https://i.ibb.co/pXt3qCy/soc-groupshot-CROPPED.jpg"
           />

@@ -99,7 +99,34 @@ h4 {
 /* -----Mobile version:----- */
 
 @media only screen and (max-width: 530px) {
-  #socRemote {
+  .aboutPageContent h1 {
+    font-size: 25px;
+  }
+
+  #socGroupPic,
+  #myBackground,
+  #hobbiesInterests {
+    width: 90%;
+  }
+
+  #socNarrative {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #skillsList {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #socRemote,
+  #hobbiesInterestsPics {
     display: none;
+  }
+
+  #socExperience,
+  #hobbiesInterestsPics {
+    flex-direction: column;
   }
 }
