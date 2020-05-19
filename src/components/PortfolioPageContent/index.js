@@ -13,13 +13,13 @@ function PortfolioPageContent() {
     <div className={css.portfolioPageContent}>
       <section id={css.portfolioIntro}>
         <h1 style={{ fontFamily: "Roboto" }}>My Skills and Portfolio</h1>
-        <p>
+        <p className={css.summaryP}>
           Over the intensive 16 weeks of the School of Code bootcamp, I learned
           the tools of full-stack development, studied UI/UX design, navigated
           the intricacies of testing and deployment, and lived and breathed
           agile methodology.
         </p>
-        <p>
+        <p className={css.projectP}>
           Halfway through the course, we got our first taste of a longer
           project, a week-long agile sprint to create a website for the West
           Midlands Combined Authority's Virtual Forest program. We presented
@@ -44,7 +44,7 @@ function PortfolioPageContent() {
           />
         </div>
 
-        <p>
+        <p className={css.projectP}>
           For the final month, I worked in a team of three to develop Volt, a
           full stack progressive web app bringing fun dating app functionality
           to connecting volunteers with organisations and opportunities. Due to
@@ -53,7 +53,8 @@ function PortfolioPageContent() {
           experience communicating and collaborating remotely. We presented this
           to over 200 attendees at the virtual Demo Day on 14 May 2020.
         </p>
-        <p>
+
+        <p className={css.summaryP}>
           And now that my time as a School of Code bootcamper is over, I'm still
           coding up a storm, so watch this space for new additions!
         </p>
