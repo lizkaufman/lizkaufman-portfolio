@@ -1,6 +1,7 @@
 .aboutPageContent {
   padding-top: 1.45rem;
   font-family: "Roboto";
+  /* font-weight: bold; */
   margin: 0 auto;
   text-align: center;
 }
@@ -43,6 +44,7 @@
   width: 40vw;
   height: auto;
   margin-left: 30px;
+  font-weight: bold;
 }
 
 #skillsList ul,
@@ -64,7 +66,7 @@ h4 {
 /* -----Pictures:----- */
 
 #mainPic {
-  height: 20vh;
+  height: 30vh;
   width: auto;
   border-radius: 20px;
   margin: 0;
@@ -93,7 +95,7 @@ h4 {
 .hobbiesInterestsPic {
   border-radius: 20px;
   width: auto;
-  height: 25vh;
+  height: 28vh;
 }
 
 .divider {
