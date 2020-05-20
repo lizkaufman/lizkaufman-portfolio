@@ -28,6 +28,15 @@ const projects = [
     hostedLink: "https://hangcode.netlify.com",
   },
   {
+    name: "This Is Jeopardy!",
+    date: "15 May 2020-onward",
+    summary:
+      "I've been a fan of the game show Jeopardy since childhood. Back in the States, I used to watch it religiously, but it's a bit harder to find here! As a fun little personal project, I'm working on using the jservice.io api to create my own version online. The first iteration is just the board, but further sprints will include scorekeeping, multiplayer, etc.!",
+    img: "https://i.ibb.co/VCZRLSC/this-is-jep-screenshot.png",
+    repoLink: "https://github.com/lizkaufman/this-is-jeopardy/",
+    hostedLink: "https://this-is-jeopardy.netlify.app/",
+  },
+  {
     name: "Quarantine Calculator",
     date: "3 April 2020",
     summary:
