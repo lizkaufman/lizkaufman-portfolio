@@ -12,7 +12,7 @@ function PortfolioPageContent() {
   return (
     <div className={css.portfolioPageContent}>
       <section id={css.portfolioIntro}>
-        <h1 style={{ fontFamily: "Roboto" }}>My Skills and Portfolio</h1>
+        <h1 style={{ fontFamily: "Roboto" }}>My Portfolio</h1>
         <p className={css.summaryP}>
           Over the intensive 16 weeks of the School of Code bootcamp, I learned
           the tools of full-stack development, studied UI/UX design, navigated

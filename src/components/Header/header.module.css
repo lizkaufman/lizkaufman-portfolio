@@ -43,3 +43,9 @@
   color: #3a3b3c;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 530px) {
+  #siteTitle {
+    font-size: 60%;
+  }
+}

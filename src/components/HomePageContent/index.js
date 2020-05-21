@@ -50,7 +50,7 @@ const HomePageContent = () => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/elizabeth-kaufman-a51bba26/"
+          href="https://www.linkedin.com/in/liz-kaufman/"
           target="_blank"
           rel="noopener noreferrer"
         >

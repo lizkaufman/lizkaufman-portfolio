@@ -2,12 +2,13 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ContactPageContent from "../components/ContactPageContent"
 
-const ContactMePage = () => (
+const AboutMePage = () => (
   <Layout>
-    <SEO title="Contact Me" />
-    <h1>Contact Me Page</h1>
+    <SEO title="About Me" />
+    <ContactPageContent />
   </Layout>
 )
 
-export default ContactMePage
+export default AboutMePage
