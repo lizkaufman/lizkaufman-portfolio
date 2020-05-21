@@ -81,7 +81,7 @@ function AboutPageContent() {
             </a>
             has changed my life. For the first time ever, I feel like I finally
             know what I want to be when I grow up. The School of Code welcomes
-            people from all different ages and backgrounds, not ust techie
+            people from all different ages and backgrounds, not just techie
             geniuses who have been coding since their ages were in the single
             digits, and it focuses on dynamic, employable skills, with a job
             putting those skills into practice to look forward to at the end of
