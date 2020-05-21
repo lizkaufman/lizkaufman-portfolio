@@ -1,0 +1,56 @@
+#homePageContent {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+#mainHeader {
+  padding-top: 1.45rem;
+  font-family: "Roboto";
+}
+
+.subHead {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 1.45rem;
+  font-family: "Roboto";
+}
+
+#mainImage {
+  max-width: 290px;
+  margin: 1.1rem auto;
+}
+
+.contentP {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialsIcon {
+  height: 60px;
+  width: 60px;
+  margin: 0 10px;
+  margin-bottom: 1.45rem;
+  transition: all 0.1s ease;
+}
+
+.socialsIcon:hover {
+  cursor: pointer;
+  background-color: #eccf59;
+  border-radius: 50%;
+  border: 3px solid #eccf59;
+  transform: scale(1.2, 1.2);
+}
+
+@media only screen and (max-width: 530px) {
+  .subHead {
+    width: 75vw;
+  }
+}

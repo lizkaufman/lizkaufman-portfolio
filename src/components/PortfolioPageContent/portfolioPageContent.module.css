@@ -1,0 +1,103 @@
+.portfolioPageContent {
+  padding-top: 1.45rem;
+  font-family: "Roboto";
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#portfolioIntro {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+#portfolioIntro h1 {
+  padding-bottom: 0.45rem;
+}
+
+#midtermPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.45rem;
+}
+
+.midtermPic {
+  width: 25vw;
+  height: auto;
+  padding: 0 20px;
+  border-radius: 10%;
+}
+
+#githubBlurb {
+  text-align: center;
+  font-weight: bold;
+}
+
+#githubLink {
+  color: black;
+}
+
+#githubLink:hover {
+  text-decoration: underline;
+}
+
+/* -----Collapse/panel (project list) styling below:----- */
+
+.panelContents {
+  display: grid;
+  grid-template-columns: [image] 50% [info] 50%;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.projectImage {
+  grid-column: image / image;
+}
+
+.projectInfo {
+  grid-column: info / info;
+  margin: 0 15px;
+  padding-left: 10px;
+}
+
+.projectInfo p {
+  margin: 5px 0;
+}
+
+.projectInfo a {
+  color: black;
+}
+
+.projectInfo a:hover {
+  text-decoration: underline;
+}
+
+.projectDate {
+  text-align: right;
+  font-style: italic;
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+/* -----Mobile version styling below:----- */
+
+@media only screen and (max-width: 530px) {
+  .portfolioPageContent h1 {
+    font-size: 25px;
+  }
+  #midtermPics {
+    display: none;
+  }
+  .projectP {
+    display: none;
+  }
+  .summaryP,
+  #githubBlurb,
+  #githubLink {
+    font-size: 16px;
+  }
+  .panelContents {
+    display: flex;
+    flex-direction: column;
+  }
+}

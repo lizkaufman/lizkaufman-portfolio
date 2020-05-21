@@ -1,0 +1,82 @@
+#contactPageContent {
+  padding-top: 1.45rem;
+  font-family: "Roboto";
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contactPageContent h1 {
+  padding-bottom: 0.45rem;
+}
+
+.contactPageP {
+  font-weight: bold;
+}
+
+#socEmail {
+  color: black;
+}
+
+#socEmail:hover {
+  color: black;
+  background-color: #61856e65;
+  border-radius: 20px;
+}
+
+#socialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #61856e65;
+  border: 2px solid #61856e65;
+  border-radius: 20px;
+  width: 40vw;
+  margin: 20px auto;
+  transition: all 0.1s ease;
+}
+
+.social:hover {
+  background-color: #6fcdffa2;
+  border: 2px solid #61856e65;
+}
+
+.socialsIcon {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+.socialsLink {
+  margin: auto 0;
+  padding-right: 20px;
+  color: black;
+}
+
+@media only screen and (max-width: 530px) {
+  #contactPageContent h1 {
+    font-size: 25px;
+  }
+  .contactPageP {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .social {
+    width: 80vw;
+  }
+  .socialsIcon {
+    width: 80px;
+    height: 80px;
+  }
+  .socialsLink {
+    font-size: 150%;
+  }
+}

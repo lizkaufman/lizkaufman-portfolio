@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio - Liz Kaufman, Developer`,
+    title: `Liz Kaufman, Developer`,
     description: ``,
     author: `Liz Kaufman`,
   },
@@ -26,9 +26,17 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/codingbumblebee.png`, // This path is relative to the root of the site.
       },
+      // this (optional) plugin enables Progressive Web App + Offline functionality
+      // To learn more, visit: https://gatsby.dev/offline
+      // `gatsby-plugin-offline`,
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Roboto`],
+        display: "swap",
+      },
+    },
+    "gatsby-plugin-antd",
   ],
 }
