@@ -2,8 +2,6 @@ import React from "react"
 
 import css from "./contactPageContent.module.css"
 
-//  TODO:socials with written-out links next to icons
-//  TODO:email form
 //  TODO:component that integrates Twitter (newsfeed and/or tweet me button!)
 
 function ContactPageContent() {
