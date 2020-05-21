@@ -48,3 +48,9 @@
   border: 3px solid #eccf59;
   transform: scale(1.2, 1.2);
 }
+
+@media only screen and (max-width: 530px) {
+  .subHead {
+    width: 75vw;
+  }
+}
