@@ -63,6 +63,7 @@ function AboutPageContent() {
       <img
         src="https://designshack.net/postimages/faders_final.gif"
         className={css.divider}
+        alt="divider"
       />
       <section id={css.socExperience}>
         <div id={css.socNarrative}>
@@ -141,6 +142,7 @@ function AboutPageContent() {
       <img
         src="https://designshack.net/postimages/faders_final.gif"
         className={css.divider}
+        alt="divider"
       />
       <section id={css.hobbiesInterests}>
         <h3>And when I'm not coding...</h3>
