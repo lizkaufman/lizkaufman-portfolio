@@ -42,8 +42,8 @@ const projects = [
     summary:
       "During a six-hour School of Code hackathon, as a team of four, we built the Necessary Information Concerning Everything Ben (NICE Ben) app as a guide for future bootcampers. It contains a dictionary of Ben-isms, a place to add new Ben-isms to the database, and a Tenuous Analogy Generator (TAG). I pair-programmed a Serverless back end (feeding into AWS DynamoDB) and helped construct the TAG.",
     img: "https://i.ibb.co/jkbyYXx/benisms-screen-shot.png",
-    repoLink: "https://nice-benisms.netlify.app/",
-    hostedLink: "https://github.com/lizkaufman/benisms-backend",
+    repoLink: "https://github.com/lizkaufman/benisms-backend",
+    hostedLink: "https://nice-benisms.netlify.app/",
   },
   {
     name: "Quarantine Calculator",
