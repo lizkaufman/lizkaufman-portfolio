@@ -10,7 +10,7 @@ https://lizkaufman-portfolio.netlify.app/portfolio/
 
 - [Gatsby](https://www.gatsbyjs.org/)
 - [React Hamburger Menu](https://www.npmjs.com/package/react-hamburger-menu) - burger menu icon
-- [Ant Design](https://ant.design/) - drawer
+- [Ant Design](https://ant.design/) - drawer (menu)
 
 ## To run in dev environment:
 
