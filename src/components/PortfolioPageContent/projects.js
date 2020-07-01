@@ -46,7 +46,16 @@ const projects = [
     hostedLink: "https://nice-benisms.netlify.app/",
   },
   {
-    name: "Quarantine Calculator",
+    name: "Parsnip",
+    date: "26 June 2020",
+    summary:
+      "During another six-hour School of Code hackathon, as a team of four, we built Parsnip, an app to help people eat seasonally. Parsnip displays the produce in season in the UK in that month in an eye-catching, visual way, and with the touch of a button, it uses the Edamam recipe API to find a mouth-watering dish that includes one of the ingredients in season for you to cook.",
+    img: "https://i.ibb.co/6r6b9tV/seasonal-foods-page.png",
+    repoLink: "https://github.com/lizkaufman/hackathon-26june-parsnip",
+    hostedLink: "",
+  },
+  {
+    name: "Another Quarantine Calculator",
     date: "3 April 2020",
     summary:
       "At the end of the day that we were first introduced to GatsbyJS, we had a one-hour hackathon to try it out and make something. This was of course during the global circumstances that led to a toilet paper calculator going viral, so our group decided to make something similar, but for beer. It might not be quite as critical as loo roll, but it's good for morale!",
