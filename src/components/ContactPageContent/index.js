@@ -8,7 +8,7 @@ function ContactPageContent() {
   return (
     <div id={css.contactPageContent}>
       <h1 style={{ fontFamily: "Roboto" }}>Want to get in touch?</h1>
-      <p className={css.contactPageP}>
+      {/* <p className={css.contactPageP}>
         I'm currently looking for my first role in tech, and I can't wait for an
         opportunity to use the skills and experience from the School of Code and
         keep learning! If you have an opportunity and you'd like an eager
@@ -17,10 +17,10 @@ function ContactPageContent() {
           hiring@schoolofcode.co.uk
         </a>
         .
-      </p>
+      </p> */}
       <p className={css.contactPageP}>
-        If you'd like to see more of what I'm up to in my tech journey, check
-        out my socials below:
+        If you'd like to see more of where I'm at in my tech journey and get in
+        touch, check out my socials below:
       </p>
       <a
         href="https://twitter.com/codingbumblebee"
