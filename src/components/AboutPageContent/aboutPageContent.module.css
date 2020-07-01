@@ -78,7 +78,8 @@ h4 {
   flex-direction: row;
 }
 
-.socPic {
+.socPic,
+#socGroupPic {
   height: auto;
   width: 45%;
   border-radius: 20px;
